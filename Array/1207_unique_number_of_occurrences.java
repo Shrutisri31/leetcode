@@ -9,6 +9,6 @@ class Solution {
         int m=hs.size();
         if(n==m)
          return true;
-        return false;  
+        return false;  //returning value
     }
 }
