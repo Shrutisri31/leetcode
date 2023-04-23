@@ -7,8 +7,8 @@ class Solution {
 		return s;
 	
     for (int i = 0; i < len-1; i++) {
-     	extendPalindrome(s, i, i);  //assume odd length, try to extend Palindrome as possible
-     	extendPalindrome(s, i, i+1); //assume even length.
+     	extendPalindrome(s, i, i); 
+     	extendPalindrome(s, i, i+1); 
     }
     return s.substring(lo, lo + maxLen);
 }
