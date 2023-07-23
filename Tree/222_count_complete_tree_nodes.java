@@ -21,6 +21,6 @@ class Solution {
         int leftcount = countNodes(root.left);
         int rightcount = countNodes(root.right);
 
-        return leftcount + rightcount + 1;
+        return (leftcount + rightcount + 1);
     }
 }
