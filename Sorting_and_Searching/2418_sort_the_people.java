@@ -10,12 +10,11 @@ class Solution {
         Arrays.sort(heights);
 
         String[] sortedNames = new String[n];
-        int index = 0;
+        int idx = 0;
         for (int i = n - 1; i >= 0; i--) {
-            sortedNames[index] = map.get(heights[i]);
-            index++;
+            sortedNames[idx] = map.get(heights[i]);
+            idx++;
         }
-
         return sortedNames;
     }
 }
