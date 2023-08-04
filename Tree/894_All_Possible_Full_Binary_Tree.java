@@ -17,8 +17,7 @@ class Solution {
     static Map<Integer, List<TreeNode>> saved = new HashMap<>();
     
     public List<TreeNode> allPossibleFBT(int n) {
-         if (n%2==0)
-            return new ArrayList<>();
+         if (n%2==0) return new ArrayList<>();
 
         if (!saved.containsKey(n)) {
             List<TreeNode> list = new ArrayList<>();
