@@ -12,9 +12,7 @@ class Solution {
         for(int i=0;i<=nums.length; i++){
             for(int j=i+1; j<=nums.length-1;j++){
               int temp =  (nums[i]-1)*(nums[j]-1);
-               if(temp > max){
-                   max = temp;
-               }
+               if(temp > max)  max = temp;  
             }
         }
         return max;
