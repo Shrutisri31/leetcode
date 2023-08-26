@@ -5,13 +5,10 @@ class Solution {
         for (int i = 0; i < candies.length; i++) {
             if (candies[i] > max) max = candies[i];
         }
-
         ArrayList<Boolean> list = new ArrayList<>();
-
         for (int i = 0; i < candies.length; i++) {
             list.add(candies[i] + extraCandies >= max);
         }
-        return list;
-        
+        return list; 
     }
 }
