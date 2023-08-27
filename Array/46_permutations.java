@@ -4,7 +4,6 @@ class Solution {
         backtrack(nums, new ArrayList<>(), res);
         return res;
     }
-
     private static void backtrack(int[] nums, List<Integer> currPm, List<List<Integer>> res)
      {
         if (currPm.size() == nums.length) {
