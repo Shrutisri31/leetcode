@@ -4,7 +4,7 @@ class Solution {
         int idx = 0;
         while (candies > 0) {
             arr[idx++ % num_people] += Math.min(idx, candies);
-                candies = Math.max(candies - idx, 0);
+            candies = Math.max(candies - idx, 0);
         }
         return arr;
     }
