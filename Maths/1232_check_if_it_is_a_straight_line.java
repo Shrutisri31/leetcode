@@ -1,10 +1,8 @@
 class Solution {
     public boolean checkStraightLine(int[][] coordinates) {
         int n = coordinates.length;
-
         int x1 = coordinates[0][0];
         int y1 = coordinates[0][1];
-
         int x2 = coordinates[1][0];
         int y2 = coordinates[1][1];
 
@@ -18,7 +16,6 @@ class Solution {
                 return false;
              }
         }
-
         return true;
     }
 }
