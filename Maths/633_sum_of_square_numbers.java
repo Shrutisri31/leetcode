@@ -1,6 +1,7 @@
 class Solution {
     public boolean judgeSquareSum(int c) {
-        int start=0,end=(int)Math.sqrt(c);
+        int start=0;
+        int end=(int)Math.sqrt(c);
         while(start<=end)
         {
            int ans=(start*start)+(end*end);
