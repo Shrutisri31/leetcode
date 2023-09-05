@@ -6,7 +6,6 @@ class Solution {
         for(int i=0; i<n; i++){  
             value= start+ 2*i;
             result^=value; 
-
         }
         return result; 
     }
