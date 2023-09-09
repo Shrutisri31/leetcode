@@ -16,7 +16,6 @@ class Solution {
 
             diff[i] = prefix.size() - suffix.size();
         }
-
         return diff;   
     }
 }
