@@ -2,7 +2,8 @@ class Solution {
     public int oddCells(int m, int n, int[][] indices) {
         int[] r = new int[m];
         int[] c = new int[n];
-        for (int i = 0 ; i < indices.length; i++) {
+        for (int i = 0 ; i < indices.length; i++)
+         {
             r[indices[i][0]]++;
             c[indices[i][1]]++;
         }
