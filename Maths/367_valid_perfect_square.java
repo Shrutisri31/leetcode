@@ -9,13 +9,14 @@ class Solution {
             
             if (mid * mid < num) {
                 low = (int) mid + 1;
-            } else if (mid * mid > num) {
+            } 
+            else if (mid * mid > num) {
                 high = (int) mid - 1;
-            } else if (mid * mid == num) {
+            } 
+            else if (mid * mid == num) {
                 return true;
             }
-        }
-        
+        }  
         return false;    
     }
 }
