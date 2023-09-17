@@ -10,7 +10,8 @@ class Solution {
       }
 
       ++map[sum];
-      if (maxCount < map[sum]) {
+      if (maxCount < map[sum])
+       {
         maxCount = map[sum];
         res = 1;
       } else if (maxCount == map[sum]) {
