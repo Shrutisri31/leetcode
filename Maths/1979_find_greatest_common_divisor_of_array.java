@@ -6,7 +6,8 @@ class Solution {
     }
 
     
-    public int findGCD(int[] nums) {
+    public int findGCD(int[] nums)
+     {
         int max = 0;
         int min = 1001;
         for(int e : nums){
