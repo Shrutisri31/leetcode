@@ -12,7 +12,7 @@ class Solution {
          while(count < total){
              //print starting row 
              for(int i=startcol; count<total && i<=endcol; i++)
-             em {
+             {
                  list.add(matrix[startrow][i]);
                  count++;
              }
