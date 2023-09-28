@@ -11,25 +11,29 @@ class Solution {
          int endcol = col-1;
          while(count < total){
              //print starting row 
-             for(int i=startcol; count<total && i<=endcol; i++){
+             for(int i=startcol; count<total && i<=endcol; i++)
+             em {
                  list.add(matrix[startrow][i]);
                  count++;
              }
              startrow++;
              //print ending column 
-             for(int i=startrow; count<total && i<=endrow; i++){
+             for(int i=startrow; count<total && i<=endrow; i++)
+             {
                  list.add(matrix[i][endcol]);
                  count++;
              }
              endcol--;
              //print ending row
-             for(int i=endcol; count<total && i>=startcol; i--){
+             for(int i=endcol; count<total && i>=startcol; i--)
+             {
                  list.add(matrix[endrow][i]);
                  count++;
              }
              endrow--;
              //print strating column 
-             for(int i=endrow; count<total && i>=startrow;i--){
+             for(int i=endrow; count<total && i>=startrow;i--)
+             {
                  list.add(matrix[i][startcol]);
                  count++;
              }
