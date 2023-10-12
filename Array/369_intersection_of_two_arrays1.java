@@ -12,7 +12,8 @@ class Solution {
         }
         int[] outputArray = new int[output.size()];
         int index = 0;
-        for (int x:output){
+        for (int x:output)
+        {
             outputArray[index] = x;
             index++;
         }
