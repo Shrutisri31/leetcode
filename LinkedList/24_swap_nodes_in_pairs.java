@@ -19,7 +19,8 @@ class Solution {
         ListNode prev = null;
         ListNode next = null;
         int count = 0;
-        while( curr!=null && count < 2){
+        while( curr!=null && count < 2)
+        {
             next = curr.next;
             curr.next = prev;
             prev = curr;
@@ -27,7 +28,8 @@ class Solution {
             count++;
         }
        //recursive call for rest pair of nodes 
-      if(next != null ){
+      if(next != null )
+      {
           head.next = swapPairs(next);
       }
       // return head of reversed LL
