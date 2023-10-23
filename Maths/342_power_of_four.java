@@ -10,10 +10,11 @@ class Solution {
             n=n/4;
         }
         return true; 
-        //2nd Approach
-        if (n != 0 && n == (int)Math.pow(4, (Math.log(n) / Math.log(4)))) {
-            return true;
-        }
-        return false;
+        // //2nd Approach
+        // if (n != 0 && n == (int)Math.pow(4, (Math.log(n) / Math.log(4)))) 
+        // {
+        //     return true;
+        // }
+        // return false;
     }
 }
