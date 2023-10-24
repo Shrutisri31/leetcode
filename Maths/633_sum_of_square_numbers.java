@@ -5,20 +5,16 @@ class Solution {
         while(start<=end)
         {
            int ans=(start*start)+(end*end);
-            if(ans<0)
-            {
+            if(ans<0){
                 end--;
             }
-            if(ans==c)
-            {
+            if(ans==c){
                 return true;
             }
-             if(ans<c)
-            {
+             if(ans<c) {
                 start++;
             }
-            else
-            {
+            else{
                 end--;
             }
         }
