@@ -3,10 +3,8 @@ class Solution {
         for(int i=0;i<arr.length;i++)
         {
             arr[i]+=Integer.bitCount(arr[i])*10001;
-        }
-        
-        Arrays.sort(arr);
-        
+        }  
+        Arrays.sort(arr); 
         for(int i=0;i<arr.length;i++)
         {
             arr[i]=arr[i]%10001;
