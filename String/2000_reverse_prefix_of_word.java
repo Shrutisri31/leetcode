@@ -23,7 +23,8 @@ class Solution {
                 index--;
             }
             return(String.valueOf(array));
-        } else {
+        } 
+        else {
             return(word);
         }
     }
