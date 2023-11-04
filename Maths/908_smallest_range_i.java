@@ -5,7 +5,6 @@ class Solution {
             min = Math.min(min, i);
             max = Math.max(max, i);
         }
-
         int ans = (max - k) - (min + k);
         return Math.max(0, ans);
     }
