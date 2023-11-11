@@ -1,5 +1,6 @@
 class Solution {
-    public int longestPalindromeSubseq(String s) {
+    public int longestPalindromeSubseq(String s)
+     {
         int[][] dp = new int[s.length()][s.length()];
         dp[s.length()-1][0] = 1;
         
