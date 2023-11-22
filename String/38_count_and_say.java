@@ -5,8 +5,7 @@ class Solution {
         StringBuilder sb = new StringBuilder();
 		int numDigit = 1;
         char currentNum = prev.charAt(0); 
-        for(int i=1;i<prev.length();i++)
-        { 
+        for(int i=1;i<prev.length();i++){ 
             if(prev.charAt(i) == currentNum){
                 numDigit++;                
             }
