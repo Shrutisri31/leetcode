@@ -5,7 +5,8 @@ class Solution {
         String s=new String(c);
         String a="abcdefghijklmnopqrstuvwxyz";
         int k=0;
-        for(int i=0;i<s.length();i++){
+        for(int i=0;i<s.length();i++)
+        {
             if(k==26){
                 break;
             }
