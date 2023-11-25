@@ -1,5 +1,5 @@
 class Solution {
-    public boolean checkString(String s) {
+    public boolean checkString(String s){
         int count = 0;
         char[] c = s.toCharArray();
         for (char ch : c) if (ch == 'a') count++;
