@@ -4,7 +4,8 @@ class Solution {
         int i = 0;
         int j = word.length();
         int index = 0;
-        while (i < j) {
+        while (i < j)
+        {
             if (array[i] == ch) {
                 index = i;
                 break;
