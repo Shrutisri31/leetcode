@@ -1,10 +1,12 @@
 class Solution {
     public String longestCommonPrefix(String[] strs) {
         int size = strs.length;
-        if(size == 0){
+        if(size == 0)
+        {
             return "";
         }
-        if(size==1){
+        if(size==1)
+        {
             return strs[0];
         }
          Arrays.sort(strs);
