@@ -5,11 +5,14 @@ class Solution {
         StringBuilder sb = new StringBuilder();
 		int numDigit = 1;
         char currentNum = prev.charAt(0); 
-        for(int i=1;i<prev.length();i++){ 
-            if(prev.charAt(i) == currentNum){
+        for(int i=1;i<prev.length();i++)
+        { 
+            if(prev.charAt(i) == currentNum)
+            {
                 numDigit++;                
             }
-            else{
+            else
+            {
                 sb.append(numDigit).append(currentNum);
                 numDigit = 1;
                 currentNum = prev.charAt(i);
