@@ -5,7 +5,8 @@ class Solution {
         }
         char[] str = s.toCharArray();
         int start = 0;
-        for (int i = 0; i < str.length; i++) {
+        for (int i = 0; i < str.length; i++)
+         {
             if (str[i] == ' ') {
                 reverse(str, start, i - 1);
                 start = i + 1;
