@@ -7,8 +7,7 @@ class MyQueue {
         stack1 = new Stack<>();
         stack2 = new Stack<>();
     }
-    public void push(int x)
-    {
+    public void push(int x) {
        stack1.push(x);
     }
     public int pop() {
