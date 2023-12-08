@@ -9,8 +9,7 @@ class Solution {
          int startcol = 0;
          int endrow = row-1;
          int endcol = col-1;
-         while(count < total)
-         {
+         while(count < total) {
              //print starting row 
              for(int i=startcol; count<total && i<=endcol; i++)
              {
