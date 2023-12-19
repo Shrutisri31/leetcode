@@ -14,7 +14,8 @@ class Solution {
             }
         }
         int a[]=new int[2];
-        for(int i=0;i<2-1;i++){
+        for(int i=0;i<2-1;i++)
+        {
             a[i]=c;
             a[i+1]=d;
         }
