@@ -1,5 +1,5 @@
 class Solution {
-    public int uniqueMorseRepresentations(String[] words) {
+    public int uniqueMorseRepresentations(String[] words){
      String[] MORSE_CODE = new String[]{".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."};
 
         Set<String> transformations = new HashSet<>();
