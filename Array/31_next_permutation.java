@@ -8,7 +8,8 @@ class Solution {
                 break;
             }
         }
-        if(ind1==-1){
+        if(ind1==-1)
+        {
             reverse(nums,0);
         }
         else{
