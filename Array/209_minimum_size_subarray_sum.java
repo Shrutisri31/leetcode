@@ -4,7 +4,8 @@ class Solution {
         int j = 0;
         int sum = 0; 
         int ans = 1000000;
-        while(j<nums.length){
+        while(j<nums.length)
+        {
             sum+=nums[j];
             while(sum>=target){
                 ans = Math.min(ans, j-i+1);
