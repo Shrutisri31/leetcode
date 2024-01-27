@@ -2,8 +2,7 @@ class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
       HashSet<Integer> x = new HashSet<>();
       HashSet<Integer> y = new HashSet<>();
-           for(int i=0;i<nums1.length;i++)
-            {
+           for(int i=0;i<nums1.length;i++) {
               x.add(nums1[i]);
             }
            for(int i=0;i<nums2.length;i++)
