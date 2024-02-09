@@ -1,8 +1,7 @@
 class Solution {
     public void sortColors(int[] nums) {
         int res[] = new int[3];
-        for (int i: nums) 
-        {
+        for (int i: nums) {
             res[i]++;
         }
         for (int i = 0; i < nums.length; i++) 
