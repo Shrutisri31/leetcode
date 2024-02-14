@@ -3,7 +3,6 @@ class Solution {
         Arrays.sort(nums);
         int minDistance = Integer.MAX_VALUE;
         int closestSum = 0;
-
         for(int i = 0; i < nums.length - 2; i++) {
             int start = i + 1;
             int end = nums.length - 1;
