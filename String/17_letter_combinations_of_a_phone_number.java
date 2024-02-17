@@ -3,8 +3,7 @@ class Solution {
         if (index == digits.length()) {
             result.add(current);
             return;
-        }
-        
+        }  
         char digit = digits.charAt(index);
         String letters = digitToLetters.get(digit);
         
