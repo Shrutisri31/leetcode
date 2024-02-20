@@ -19,8 +19,7 @@ class Solution {
         ListNode prev = null;
         ListNode next = null;
         int count = 0;
-        while( curr!=null && count < 2)
-        {
+        while( curr!=null && count < 2){
             next = curr.next;
             curr.next = prev;
             prev = curr;
