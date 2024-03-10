@@ -6,7 +6,8 @@ class Solution {
             container.add(num);
         }
         for (int num:nums2){
-            if (container.contains(num)){
+            if (container.contains(num))
+            {
                 output.add(num);
             }
         }
