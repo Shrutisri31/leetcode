@@ -1,6 +1,5 @@
 class Solution {
-    public static void reverse(int nums[], int start, int end)
-    {
+    public static void reverse(int nums[], int start, int end){
         while(start < end){
           int temp = nums[start];
           nums[start] = nums[end];
@@ -10,7 +9,6 @@ class Solution {
            end--;
         }
     }
-
 public void rotate(int[] nums, int k) { 
     k %= nums.length;
     reverse(nums, 0, nums.length - 1);
