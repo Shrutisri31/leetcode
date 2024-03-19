@@ -1,8 +1,8 @@
 class Solution {
     public int[] separateDigits(int[] nums) {
-       List<Integer> ans = new ArrayList<>();
+       ArrayList<Integer> ans = new ArrayList<>();
         for (int num : nums) {
-            List<Integer> temp = new ArrayList<>();
+            ArrayList<Integer> temp = new ArrayList<>();
             while (num > 0) {
                 temp.add(num % 10);
                 num /= 10;
